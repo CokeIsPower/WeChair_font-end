@@ -1,0 +1,54 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/flashSeat/flashSeat"
+		},
+		{
+			"path": "pages/info/info"
+		},
+		{
+			"path": "pages/reserveList/reserveList"
+		},
+		{
+			"path": "pages/scan/scan"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "WeChair",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabBar/index.png",
+				"selectedIconPath":"static/tabBar/index-fill.png"
+			},
+			{
+				"text":"闪座",
+				"pagePath":"pages/flashSeat/flashSeat",
+				"iconPath":"static/tabBar/pin.png",
+				"selectedIconPath":"static/tabBar/pin-fill.png"
+				
+			},
+			{
+				"text":"预约",
+				"pagePath":"pages/reserveList/reserveList",
+				"iconPath":"static/tabBar/manage-order.png",
+				"selectedIconPath":"static/tabBar/manage-order-fill.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/info/info",
+				"iconPath":"static/tabBar/office-supplies.png",
+				"selectedIconPath":"static/tabBar/office-supplies-fill.png"
+			}
+		]
+	}
+}
